@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 import {getWeather} from "./apis/getWeather.ts";
 
-const WeatherInfo = ({weather, setWeather, position}) => {
+const KakaoMap = ({weather, setWeather, position}) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -51,4 +51,4 @@ const WeatherInfo = ({weather, setWeather, position}) => {
   );
 };
 
-export default WeatherInfo;
+export default KakaoMap;
